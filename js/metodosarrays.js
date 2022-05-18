@@ -29,3 +29,10 @@ let listaAlumnos = alumnos.map((elem, i) => {
 })
 
 console.log(listaAlumnos);
+
+// Ciclo filter ECMAScript6
+// Ejecuta una función que retorna un elemento
+// a un nuevo array cuando cumple una condición
+
+let alumnosAptos = alumnos.filter(elem => elem.apto);
+console.log(alumnosAptos);
